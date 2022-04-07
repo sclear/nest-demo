@@ -40,6 +40,12 @@
   .addGroupBy("user.id")
   ```
 
+- regexp
+
+  ```ts
+  where("tb_source.type regexp :type", { type: reg });
+  ```
+
 - limit
 
   ```ts
